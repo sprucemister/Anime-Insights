@@ -1,3 +1,5 @@
 https://anilist.github.io/ApiV2-GraphQL-Docs/
 https://anilist.gitbook.io/anilist-apiv2-docs/overview/graphql/pagination
 https://www.animenewsnetwork.com/encyclopedia/anime.php?id=10216
+
+python -m notebook
