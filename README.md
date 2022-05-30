@@ -113,11 +113,13 @@ for i in range(1,9999):
             break
 df_media.reset_index(inplace=True,drop=True)
 df_media.sort_values(['startDate.year','startDate.month','startDate.day'])
-display(df_media)
+df_media
 ```
 
-    178
+    180
     
+
+
 
 
 <div>
@@ -432,6 +434,7 @@ display(df_media)
 </div>
 
 
+
 Okay awesome, that looks good.
 
 I want to see if certain genres are more popular in different seasons of the year.
@@ -690,7 +693,7 @@ genre_list=df_hot.iloc[:, list(range(24, df_hot.shape[1]))].sum().sort_values(0,
 display(genre_list)
 ```
 
-    C:\Users\Spruce\AppData\Local\Temp\ipykernel_10520\1044468406.py:1: FutureWarning: In a future version of pandas all arguments of Series.sort_values will be keyword-only.
+    C:\Users\Spruce\AppData\Local\Temp\ipykernel_14792\1044468406.py:1: FutureWarning: In a future version of pandas all arguments of Series.sort_values will be keyword-only.
       genre_list=df_hot.iloc[:, list(range(24, df_hot.shape[1]))].sum().sort_values(0,ascending=False)
     
 
